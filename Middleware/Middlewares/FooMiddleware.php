@@ -13,9 +13,8 @@ class FooMiddleware implements MiddlewareInterface
 
     public function process(RequestInterface $request, HttpHandlerInterface $next): ResponseInterface
     {
-        $response = $next->handle($request);
         print '⬇FooMiddleware 通過<br>';
 
-        return $response;
+        return $next->handle($request);
     }
 }
