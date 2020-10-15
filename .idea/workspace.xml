@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8393b23-f921-4f2b-ad8a-5bb2f9648eec" name="デフォルト変更リスト" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../tweetworks" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/valitron" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/framework/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/framework/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/framework/vendor/composer" />
+      <path value="$PROJECT_DIR$/framework/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/framework/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/framework/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/framework/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/framework/vendor/vlucas/valitron" />
+      <path value="$PROJECT_DIR$/framework/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/framework/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/framework/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/framework/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1inoI0wCpvZeC8SYvSoUvldNdMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/State_strategy" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/framework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/State_strategy" />
+      <recent name="$PROJECT_DIR$/Middleware/Middlewares" />
+      <recent name="$PROJECT_DIR$/Middleware/HTTP" />
+      <recent name="$PROJECT_DIR$/Middleware/Interfaces" />
+      <recent name="$PROJECT_DIR$/Middleware" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8393b23-f921-4f2b-ad8a-5bb2f9648eec" name="デフォルト変更リスト" comment="" />
+      <created>1602552633097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602552633097</updated>
+      <workItem from="1602552634241" duration="10822000" />
+      <workItem from="1602576689271" duration="32711000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="620" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1602738960754">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="620" y="214" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602738960754" />
+    <state x="633" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602651595465">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="633" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602651595465" />
+    <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602737409896">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602737409896" />
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602749152776">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602749152776" />
+    <state x="581" y="258" key="NewPhpClassDialog" timestamp="1602658758668">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="581" y="258" key="NewPhpClassDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602658758668" />
+    <state x="581" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602564890348" />
+    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1602745356859">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="661" y="455" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602745356859" />
+    <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602570406538" />
+    <state x="393" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602642575990">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="393" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602642575990" />
+    <state x="512" y="280" width="655" height="490" key="find.popup" timestamp="1602574980404">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="512" y="280" width="655" height="490" key="find.popup/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602574980403" />
+    <state x="512" y="280" width="655" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602565404209" />
+  </component>
+</project>
