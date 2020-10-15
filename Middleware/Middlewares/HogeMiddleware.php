@@ -10,7 +10,6 @@ use Middleware\Interfaces\HttpHandlerInterface;
 
 class HogeMiddleware implements MiddlewareInterface
 {
-
     public function process(RequestInterface $request, HttpHandlerInterface $next): ResponseInterface
     {
         print '⬇HogeMiddleware 通過<br>';

@@ -10,10 +10,11 @@ use Middleware\Interfaces\HttpHandlerInterface;
 
 class AfterMiddleware implements MiddlewareInterface
 {
-
     public function process(RequestInterface $request, HttpHandlerInterface $next): ResponseInterface
     {
+        $response = $next->handle($request);
+
         print '⬇AfterMiddleware 通過<br>';
-        return $next->handle($request);
+        return $response;
     }
 }
