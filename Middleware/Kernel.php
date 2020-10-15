@@ -22,11 +22,10 @@ class Kernel implements KernelInterface
 
     protected function _bootstrap($request) {
         $this->_middlewares = [
-            \Middleware\Middlewares\Middleware_1::class,
-            \Middleware\Middlewares\Middleware_2::class,
+            \Middleware\Middlewares\HogeMiddleware::class,
 //            \Middleware\Middlewares\ErrorCheckMiddleware::class,
-            \Middleware\Middlewares\Middleware_3::class,
-            \Middleware\Middlewares\Middleware_4::class,
+            \Middleware\Middlewares\FooMiddleware::class,
+            \Middleware\Middlewares\AfterMiddleware::class,
 
         ];
     }

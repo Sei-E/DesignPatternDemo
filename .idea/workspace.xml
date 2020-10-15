@@ -109,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602552633097</updated>
       <workItem from="1602552634241" duration="10822000" />
-      <workItem from="1602576689271" duration="32711000" />
+      <workItem from="1602576689271" duration="35147000" />
     </task>
     <servers />
   </component>
@@ -149,10 +149,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="633" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602651595465" />
-    <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602737409896">
+    <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602752196023">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602737409896" />
+    <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602752196023" />
     <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602749152776">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
