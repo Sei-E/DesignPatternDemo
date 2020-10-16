@@ -65,6 +65,8 @@ class MyFriend
     }
 }
 
+////////////////////////////////////////////////////////////////////
+
 $myFriend = new MyFriend();
 $myFriend->changeState(new NormalState);
 

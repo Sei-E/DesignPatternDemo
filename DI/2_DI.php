@@ -32,7 +32,11 @@ class SmashBros
 {
     public function display()
     {
-        print '== SMASH BROTHERS ====================<br>';
+        print  <<< EOF
+==================<br>
+= SMASH BROTHERS =<br>
+==================<br>
+EOF;
     }
 }
 
