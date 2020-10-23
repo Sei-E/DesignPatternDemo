@@ -26,15 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8393b23-f921-4f2b-ad8a-5bb2f9648eec" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DesignPatternDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DesignPatternDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingleMiddlewareFile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DI/3_DI_interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/DI/3_DI_interface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DI/4_DI_container.php" beforeDir="false" afterPath="$PROJECT_DIR$/DI/4_DI_container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DI/5_DI_container_nest.php" beforeDir="false" afterPath="$PROJECT_DIR$/DI/5_DI_container_nest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton/Singleton.php" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/Singleton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State/NotState.php" beforeDir="false" afterPath="$PROJECT_DIR$/State/NotState.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strategy/NotStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy/NotStrategy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strategy/Strategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy/Strategy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,15 +93,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/framework" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/State_strategy" />
       <recent name="$PROJECT_DIR$/Middleware/Middlewares" />
       <recent name="$PROJECT_DIR$/Middleware/HTTP" />
       <recent name="$PROJECT_DIR$/Middleware/Interfaces" />
       <recent name="$PROJECT_DIR$/Middleware" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/framework" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -123,7 +117,7 @@
       <workItem from="1602576689271" duration="45449000" />
       <workItem from="1602840009886" duration="167000" />
       <workItem from="1603092767170" duration="112000" />
-      <workItem from="1603439852996" duration="1814000" />
+      <workItem from="1603439852996" duration="4966000" />
     </task>
     <task id="LOCAL-00001" summary="いろいろ修正">
       <created>1602821554328</created>
@@ -139,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602824328625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="いろいろと修正">
+      <created>1603442526110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603442526110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="いろいろ修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="いろいろ修正" />
+    <MESSAGE value="いろいろと修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="いろいろと修正" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1602738960754">
@@ -186,23 +188,24 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="691" y="0" width="712" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602752196023" />
-    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602749152776">
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603444846717">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602749152776" />
+    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603444846717" />
     <state x="581" y="258" key="NewPhpClassDialog" timestamp="1602658758668">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="581" y="258" key="NewPhpClassDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602658758668" />
     <state x="581" y="258" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602564890348" />
-    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1602819581203">
+    <state x="661" y="455" key="NewPhpFileDialog" timestamp="1603442755363">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="661" y="455" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1602745356859" />
+    <state x="661" y="455" key="NewPhpFileDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603442755363" />
     <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602819581203" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602821556552">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603442528678">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603442528678" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602821556552" />
     <state x="393" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602642575990">
       <screen x="0" y="0" width="1680" height="1050" />
