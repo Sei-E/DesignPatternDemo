@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 1);
+
 class Singleton {
     /** @type  Singleton */
     private static $instance;

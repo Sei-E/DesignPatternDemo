@@ -43,7 +43,7 @@ class MyFriend
 ////////////////////////////////////////////////////////////////
 
 $myFriend = new MyFriend();
-$myFriend->changeState('01');
+$myFriend->changeState(MyFriend::NORMAL_FEELING);
 
 
 echo '>>>おつかれー<br>';
@@ -51,7 +51,7 @@ $myFriend->greet();
 $myFriend->saySomething();
 
 // なにかいいことが起きる
-$myFriend->changeState('02');
+$myFriend->changeState(MyFriend::HAPPY_FEELING);
 
 echo '<p>一時間後</p>';
 echo '>>>おつかれー<br>';
@@ -59,7 +59,7 @@ $myFriend->greet();
 $myFriend->saySomething();
 
 // なにか悪いことが起きる
-$myFriend->changeState('03');
+$myFriend->changeState(MyFriend::SAD_FEELING);
 
 echo '<p>二時間後</p>';
 echo '>>>おつかれー<br>';

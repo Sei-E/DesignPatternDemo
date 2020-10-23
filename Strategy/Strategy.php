@@ -42,7 +42,7 @@ class ArrayOutput implements OutputInterface
 
 /////////////////////////////////////////////////////////////////////////////////
 /// 呼び出す側のコード
-class Response
+class Output
 {
     private $outputClass;
 
@@ -51,10 +51,9 @@ class Response
         $this->outputClass = $outputClass;
     }
 
-    public function send($aryData)
+    public function convert($aryData)
     {
-        $content = $this->outputClass->convert($aryData);
-        var_dump($content);
+        return $this->outputClass->convert($aryData);
     }
 }
 
@@ -65,5 +64,5 @@ $content = [
     'foo'  => 'フー',
 ];
 
-$response = new Response(new JsonStringOutput);
-$response->send($content);
+$output = new Output(new JsonStringOutput);
+var_dump($output->convert($content)); //結果：string(44) "{"hoge":"\u30db\u30b2","foo":"\u30d5\u30fc"}"

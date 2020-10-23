@@ -100,7 +100,7 @@ EOF;
 $container = new \Pimple\Container();
 $container['gameSoftInterface'] = $container->factory(function ($c) {
     // $cはDIコンテナです
-    return new MarioKart();
+    return new SmashBros();
 });
 
 $container['switchInterface'] = $container->factory(function ($c) {

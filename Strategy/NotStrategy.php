@@ -1,7 +1,7 @@
 <?php
 /////////////////////////////////////////////////////////////////////////////////
 /// 呼び出す側のコード
-class Response
+class Output
 {
     const SERIALIZED_RESPONSE = '01';
     const JSON_RESOPONSE      = '02';
@@ -16,7 +16,7 @@ class Response
         $this->outputType = $outputType;
     }
 
-    public function send($aryData)
+    public function convert($aryData)
     {
         if ($this->outputType == self::SERIALIZED_RESPONSE) {
             //シリアル化する場合
@@ -30,11 +30,11 @@ class Response
             // 配列で返す場合
             $content = $aryData;
         }
-//        elseif ($this->outputType == self::OBJECT_RESPONSE) {
-//            $content = json_decode(json_encode($aryData));
-//        }
+        elseif ($this->outputType == self::OBJECT_RESPONSE) {
+            $content = json_decode(json_encode($aryData));
+        }
 
-        var_dump($content);
+        return $content;
     }
 }
 
@@ -45,6 +45,6 @@ $content = [
     'foo'  => 'フー',
 ];
 
-$response = new Response('03');
-$response->send($content);
+$output = new Output(Output::JSON_RESOPONSE);
+var_dump($output->convert($content));  //結果：string(44) "{"hoge":"\u30db\u30b2","foo":"\u30d5\u30fc"}"
 

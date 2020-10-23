@@ -69,8 +69,8 @@ EOF;
 ///////////////////////////////////////////////////////////////////
 
 //スイッチを起動
-$game = new SmashBros();
-//$game = new MarioKart();
+//$game = new SmashBros();
+$game = new MarioKart();
 $console = new NindendoSwitch($game);
 //ゲームを開始
 $console->run();
